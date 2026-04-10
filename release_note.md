@@ -11,6 +11,25 @@
     * client.TradeSubscriptionCreate()，订阅创建接口。
     * client.TradeSubscriptionModify()，订阅修改接口。
     * client.TradeSubscriptionQuery()，订阅查询接口。
+  * 支付宝v2：新增 RiskGO 相关接口。
+    * client.SecurityRiskComplaintProcessFinish()，处理消费者投诉接口。
+    * client.SecurityRiskComplaintFileUpload()，投诉处理附件图片上传接口。
+    * client.SecurityRiskComplaintInfoQuery()，查询消费者投诉详情接口。
+    * client.SecurityRiskComplaintInfoBatchquery()，查询消费者投诉列表接口。
+    * client.SecurityRiskMarketingAwardingQuery()，营销风险识别发奖接口。
+    * client.SecurityRiskMarketingPurchaseQuery()，营销风险识别抢购接口。
+    * client.SecurityRiskIndustryScalperQuery()，行业风险识别黄牛接口。
+    * client.SecurityRiskIndustryFarmingQuery()，行业风险识别刷单接口。
+    * client.SecurityRiskIndustryNsfQuery()，行业风险识别先享后付违约接口。
+    * client.SecurityRiskContentSyncDetect()，内容风险同步识别接口。
+  * 支付宝v2：新增 支付宝广告投放 相关接口。
+    * client.DataServiceAdConversionUpload()，转化数据回传接口。
+    * client.DataServiceAdReportdataQuery()，广告投放数据通用查询接口。
+    * client.DataServiceAdPromotepageBatchquery()，自建推广页列表批量查询接口。
+    * client.DataServiceAdPromotepageDownload()，自建推广页留资数据查询接口。
+    * client.DataServiceXlightTaskQuery()，任务广告完成状态查询接口。
+  * 支付宝v2：新增 商家费率申请 相关接口。
+    * client.OpenFeeAdjustApply()，特殊费率申请接口。
 
 
 
